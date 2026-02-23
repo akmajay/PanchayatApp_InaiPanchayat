@@ -1,0 +1,9 @@
+# This file configures the analyzer for Flutter apps.
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Production-ready lint configuration
+    unnecessary_underscores: false
+    use_key_in_widget_constructors: false
+    avoid_print: false

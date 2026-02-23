@@ -1,0 +1,21 @@
+# PanchayatApp - Data Safety Survey Answers
+
+## 1. Data Collection & Security
+- Does app collect data? Yes.
+- Is data encrypted in transit? Yes (HTTPS/TLS).
+- Do you provide a way for users to request that their data is deleted? Yes (Profile Settings -> Delete Account).
+
+## 2. Data Types Collected
+- **Phone Number**: Collected for app functionality (Identity/Auth).
+- **Location (Optional)**: If user attaches location to a post, coordinates are collected for app functionality.
+- **Photos/Videos (Optional)**: If user uploads media to a post, files are collected for app functionality.
+- **Contact Info (Name/Email)**: Provided by Google OAuth for profile identification.
+
+## 3. Data Usage & Sharing
+- **Functional**: Data is used only to enable core app features (post management, profile display).
+- **Third Party**: No data is sold or shared with third-party advertisers. Google OAuth handles the login securely.
+
+## 4. User Control
+- Users can view and edit their profile data.
+- Users can delete individual posts (which deletes associated media).
+- Users can permanently delete their entire account and all associated data.

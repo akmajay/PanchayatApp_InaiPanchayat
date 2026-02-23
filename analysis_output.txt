@@ -1,0 +1,10 @@
+Analyzing PanchayatApp...                                       
+
+warning - The value of the local variable 'theme' isn't used - lib\features\posts\screens\edit_post_screen.dart:68:11 - unused_local_variable
+warning - Unused import: '../services/post_service.dart' - lib\features\posts\widgets\post_actions_menu.dart:6:8 - unused_import
+  error - The method 'getUserPosts' isn't defined for the type 'PostService' - lib\features\profile\screens\profile_screen.dart:16:40 - undefined_method
+  error - The property 'isEmpty' can't be unconditionally accessed because the receiver can be 'null' - lib\features\profile\screens\profile_screen.dart:104:27 - unchecked_use_of_nullable_value
+  error - The method '[]' can't be unconditionally invoked because the receiver can be 'null' - lib\features\profile\screens\profile_screen.dart:122:41 - unchecked_use_of_nullable_value
+  error - The property 'length' can't be unconditionally accessed because the receiver can be 'null' - lib\features\profile\screens\profile_screen.dart:128:39 - unchecked_use_of_nullable_value
+
+6 issues found. (ran in 13.1s)

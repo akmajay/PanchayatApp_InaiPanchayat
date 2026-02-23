@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "637229135693",
+    "project_id": "panchayatapp-ec891",
+    "storage_bucket": "panchayatapp-ec891.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637229135693:android:42055a104236156b2ca904",
+        "android_client_info": {
+          "package_name": "com.inaipanchayat.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1CunDx2fyUXApcLHtZ9yW7VMXmZMuiSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

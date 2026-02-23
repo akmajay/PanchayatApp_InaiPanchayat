@@ -1,0 +1,28 @@
+Analyzing PanchayatApp...                                       
+
+warning - The declaration '<unnamed>' isn't referenced - lib\features\admin\screens\moderation_screen.dart:1:1 - unused_element
+  error - Expected a method, getter, setter or operator declaration - lib\features\admin\screens\moderation_screen.dart:1:1 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib\features\admin\screens\moderation_screen.dart:1:2 - expected_executable
+  error - Expected a method, getter, setter or operator declaration - lib\features\admin\screens\moderation_screen.dart:1:3 - expected_executable
+  error - Expected to find ';' - lib\features\admin\screens\moderation_screen.dart:1:4 - expected_token
+  error - Undefined class 'dart' - lib\features\admin\screens\moderation_screen.dart:1:4 - undefined_class
+  error - Directives must appear before any declarations - lib\features\admin\screens\moderation_screen.dart:2:1 - directive_after_declaration
+  error - Expected an identifier - lib\features\admin\screens\moderation_screen.dart:2:1 - missing_identifier
+  error - Directives must appear before any declarations - lib\features\admin\screens\moderation_screen.dart:3:1 - directive_after_declaration
+  error - Directives must appear before any declarations - lib\features\admin\screens\moderation_screen.dart:4:1 - directive_after_declaration
+  error - Directives must appear before any declarations - lib\features\admin\screens\moderation_screen.dart:5:1 - directive_after_declaration
+  error - Directives must appear before any declarations - lib\features\admin\screens\moderation_screen.dart:6:1 - directive_after_declaration
+warning - The value of 'refresh' should be used - lib\features\admin\screens\moderation_screen.dart:127:13 - unused_result
+warning - The value of 'refresh' should be used - lib\features\admin\screens\moderation_screen.dart:163:13 - unused_result
+warning - The '!' will have no effect because the receiver can't be null - lib\features\admin\widgets\reported_post_card.dart:22:72 - unnecessary_non_null_assertion
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\features\auth\screens\profile_completion_screen.dart:199:21 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\posts\widgets\post_card.dart:25:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\posts\widgets\post_card.dart:28:66 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\posts\widgets\post_card.dart:219:62 - deprecated_member_use
+  error - The named parameter 'center' isn't defined - lib\features\posts\widgets\post_card.dart:220:13 - undefined_named_parameter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\posts\widgets\post_card.dart:231:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\profile\widgets\profile_header.dart:50:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\profile\widgets\profile_header.dart:103:33 - deprecated_member_use
+  error - The named parameter 'padding' isn't defined - lib\shared\widgets\error_view.dart:21:7 - undefined_named_parameter
+
+24 issues found. (ran in 2.9s)
